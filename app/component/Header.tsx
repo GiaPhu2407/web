@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import TypingAnimation from "@/app/component/ui/typingAnimation";
 import Link from "next/link";
 
 const Header = () => {
@@ -344,10 +343,6 @@ const Header = () => {
             </ul>
           </div>
         </div>
-        <TypingAnimation
-          text="WELCOME TO GIA PHU LUXURY APARTMENT"
-          className="absolute top-1/2 left-1/2  transform -translate-x-1/2 -translate-y-1/2 z-30 flex text-center px-4 py-2   bg-opacity-90 rounded-lg mt-[25%] text-cyan-300"
-        />
       </nav>
     </div>
   );

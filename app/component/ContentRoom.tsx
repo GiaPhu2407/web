@@ -1,8 +1,8 @@
 "use client";
 import React, { useEffect } from "react";
-import { FaCompass } from "react-icons/fa";
-import { IoBedOutline } from "react-icons/io5";
-import { GiBathtub } from "react-icons/gi";
+// import { FaCompass } from "react-icons/fa";
+// import { IoBedOutline } from "react-icons/io5";
+// import { GiBathtub } from "react-icons/gi";
 import AOS from "aos";
 import "aos/dist/aos.css";
 const ContentRoom = () => {
@@ -462,8 +462,7 @@ const ContentRoom = () => {
       </div>
       <div
         className="flex justify-center items-center mt-4 "
-        data-aos="fade-left"
-      >
+        data-aos="fade-left">
         <div className="pl-[156px]">
           <a href="" className="text-black hover:text-amber-800 text-[35px]">
             Deluxy Family
